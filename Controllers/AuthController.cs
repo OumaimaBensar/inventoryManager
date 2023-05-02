@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Inventory_M.Models;
+using Inventory_M.Models.users_management;
+using Inventory_M.Models.ViewModels;
+
 namespace Inventory_M.Controllers
 {
     public class AuthController : Controller
@@ -20,9 +22,11 @@ namespace Inventory_M.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(AuthViewModel modelLogin)
+        public async Task<IActionResult> Login(UserLoginViewModel modelLogin)
         {
             Console.WriteLine("modelLogin.Email: " + modelLogin.Email + " and modelLogin.PassWord " + modelLogin.PassWord);
+
+
 
             if (modelLogin.Email == "user@gmail.com" &&
                 modelLogin.PassWord == "a"

@@ -39,7 +39,6 @@ C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.EntityFra
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\dotnet-ef.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -52,7 +51,6 @@ C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.IdentityM
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\allo\Desktop\inventory\Inventory_M\bin\Debug\net7.0\System.Drawing.Common.dll
