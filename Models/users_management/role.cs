@@ -2,9 +2,9 @@ namespace Inventory_M.Models.users_management;
 
 public class role
 {
-    public Guid roleid { get; set; }
+    public int RoleId { get; set; }
     public string rolename { get; set; }
-    public ICollection<user> users { get; set; }
+    public virtual ICollection<UserToRole> UsersToRoles { get; set; }
 
     
 }

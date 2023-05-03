@@ -1,4 +1,6 @@
-﻿<html lang="en"><head>
+﻿
+
+<html lang="en"><head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta charset="utf-8">
 		<title>INVENTORY_M</title>
@@ -340,10 +342,10 @@
 
 						<li class="light-blue dropdown-modal">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="~/dashboard_templ/assets/images/avatars/user.jpg" alt="Jason's Photo">
+								<!--<img class="nav-user-photo" src="~/dashboard_templ/assets/images/avatars/user.jpg" alt="Jason's Photo">-->
 								<span class="user-info">
-									<small>Welcome,</small>
-									Jason
+									<small>Welcome, @ViewBag.UserName</small>									   
+									<small> @ViewBag.UserLname </small>
 								</span>
 
 								<i class="ace-icon fa fa-caret-down"></i>
@@ -782,9 +784,9 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="profile.html">
+								<a  asp-area="" asp-controller="Employee" asp-action="Show">
 									<i class="menu-icon fa fa-caret-right"></i>
-									User Profile
+									User State
 								</a>
 
 								<b class="arrow"></b>

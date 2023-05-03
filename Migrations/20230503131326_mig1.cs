@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace InventoryM.Migrations
 {
     /// <inheritdoc />
-    public partial class mgrationone : Migration
+    public partial class mig1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,22 +14,26 @@ namespace InventoryM.Migrations
                 name: "Roles",
                 columns: table => new
                 {
-                    roleid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    RoleId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     rolename = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Roles", x => x.roleid);
+                    table.PrimaryKey("PK_Roles", x => x.RoleId);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Lname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PassWord = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    KeepLoggedIn = table.Column<bool>(type: "bit", nullable: false)
+                    status = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -38,40 +41,47 @@ namespace InventoryM.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "roleuser",
+                name: "UserToRole",
                 columns: table => new
                 {
-                    rolesroleid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    usersUserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    UserToRoleId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    RoleId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_roleuser", x => new { x.rolesroleid, x.usersUserId });
+                    table.PrimaryKey("PK_UserToRole", x => x.UserToRoleId);
                     table.ForeignKey(
-                        name: "FK_roleuser_Roles_rolesroleid",
-                        column: x => x.rolesroleid,
+                        name: "FK_UserToRole_Roles_RoleId",
+                        column: x => x.RoleId,
                         principalTable: "Roles",
-                        principalColumn: "roleid",
+                        principalColumn: "RoleId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_roleuser_Users_usersUserId",
-                        column: x => x.usersUserId,
+                        name: "FK_UserToRole_Users_UserId",
+                        column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_roleuser_usersUserId",
-                table: "roleuser",
-                column: "usersUserId");
+                name: "IX_UserToRole_RoleId",
+                table: "UserToRole",
+                column: "RoleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserToRole_UserId",
+                table: "UserToRole",
+                column: "UserId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "roleuser");
+                name: "UserToRole");
 
             migrationBuilder.DropTable(
                 name: "Roles");
