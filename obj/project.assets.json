@@ -3642,23 +3642,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\allo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allo\\Desktop\\inventory\\Inventory_M\\Inventory_M.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\.net\\inventoryManager\\Inventory_M.csproj",
       "projectName": "Inventory_M",
-      "projectPath": "C:\\Users\\allo\\Desktop\\inventory\\Inventory_M\\Inventory_M.csproj",
-      "packagesPath": "C:\\Users\\allo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allo\\Desktop\\inventory\\Inventory_M\\obj\\",
+      "projectPath": "C:\\Users\\HP\\.net\\inventoryManager\\Inventory_M.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\.net\\inventoryManager\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\allo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3724,7 +3720,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

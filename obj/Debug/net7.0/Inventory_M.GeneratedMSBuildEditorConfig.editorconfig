@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Inventory_M
 build_property.RootNamespace = Inventory_M
-build_property.ProjectDir = C:\Users\allo\Desktop\inventory\Inventory_M\
+build_property.ProjectDir = C:\Users\HP\.net\inventoryManager\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\allo\Desktop\inventory\Inventory_M
+build_property.MSBuildProjectDirectory = C:\Users\HP\.net\inventoryManager
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Auth/Login.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Employee/Show.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Employee/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Home/Index.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Home/Privacy.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Shared/Error.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Shared/_dashboardLayout.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Shared/_dashboardLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9kYXNoYm9hcmRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/_ViewImports.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/_ViewStart.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/allo/Desktop/inventory/Inventory_M/Views/Shared/_Layout.cshtml]
+[C:/Users/HP/.net/inventoryManager/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b3a31r7cvi
