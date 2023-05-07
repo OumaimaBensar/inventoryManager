@@ -1,4 +1,5 @@
 
+using Inventory_M.Models.Enrg;
 using Inventory_M.Models.users_management;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,6 @@ namespace Inventory_M.Data
         }
         public DbSet<user> Users { get; set; }
         public DbSet<role> Roles { get; set; }
-
+        public DbSet<Record> Records { get; set; }
     }
 }

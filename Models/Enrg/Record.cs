@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Inventory_M.Models.users_management;
 
-namespace Inventory_M.Models
+namespace Inventory_M.Models.Enrg
 {
     public class Record
     {

@@ -4,6 +4,7 @@ using Inventory_M.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InventoryM.Migrations
 {
     [DbContext(typeof(InventoryDbContext))]
-    partial class InventoryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230505143835_Records")]
+    partial class Records
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -104,7 +107,7 @@ namespace InventoryM.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Records", (string)null);
+                    b.ToTable("Records");
                 });
 
             modelBuilder.Entity("Inventory_M.Models.users_management.UserToRole", b =>
@@ -127,7 +130,7 @@ namespace InventoryM.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserToRole", (string)null);
+                    b.ToTable("UserToRole");
                 });
 
             modelBuilder.Entity("Inventory_M.Models.users_management.role", b =>
@@ -144,7 +147,7 @@ namespace InventoryM.Migrations
 
                     b.HasKey("RoleId");
 
-                    b.ToTable("Roles", (string)null);
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("Inventory_M.Models.users_management.user", b =>
@@ -176,7 +179,7 @@ namespace InventoryM.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Inventory_M.Models.users_management.UserToRole", b =>
